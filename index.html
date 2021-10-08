@@ -2,86 +2,123 @@
 
 <html lang="en">
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dropdown Menu with Search Box | E-Math</title>
+  <title> E-Math</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Khmer' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Metal' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bayon' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-  <div class="wrapper">
-    <nav>
-      <input type="checkbox" id="show-search">
-      <input type="checkbox" id="show-menu">
-      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-      <div class="content">
-      <div class="logo"><a href="#">E-Math</a></div>
-        <ul class="links">
-          <li><a href="#">Home</a></li>
 
-          <li>
-            <a href="#" class="desktop-link">Grade</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Features</label>
-            <ul>
-              <li><a href="#">Grade10</a></li>
-              <li><a href="#">Grade11</a></li>
-            </ul>
-          </li>
+  <div class="scroll">
+
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+        <div class="logo"><a href="#">E-Math</a></div>
+          <ul class="links">
+            <li><a href="#"><span style="font-family: 'Bayon';" >
+              ផ្ទាំងដើម
+              </span></a></li>
+
+            <li>
+              <a href="#" class="desktop-link"><span style="font-family: 'Bayon';" >
+                កម្រិតថ្នាក់
+                </span></a>
+              <input type="checkbox" id="show-features">
+              <label for="show-features">Features</label>
+              <ul>
+                <li><a href="grade10.html"><span style="font-family: 'Bayon';" >
+                  ថ្នាក់ទី១០
+                  </span></a></li>
+                <li><a href="grade11.html"><span style="font-family: 'Bayon';" >
+                  ថ្នាក់ទី១១
+                  </span></a></li>
+              </ul>
+            </li>
 
 
-          <li>
-            <a href="index.html" class="desktop-link">Popular</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Features</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li><a href="#">Drop Menu 4</a></li>
-            </ul>
-          </li>
+            <li>
+              <a href="index.html" class="desktop-link"><span style="font-family: 'Bayon';" >
+                ប្រធានបទពេញនិយម
+                </span></a>
+              <input type="checkbox" id="show-features">
+              <label for="show-features">Features</label>
+              <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li><a href="#">Drop Menu 4</a></li>
+              </ul>
+            </li>
 
-          <li>
-            <a href="topic.html" class="desktop-link">Topic</a>
-            <input type="checkbox" id="show-services">
-            <label for="show-services">Services</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li>
-                <a href="#" class="desktop-link">More Items</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">More Items</label>
-                <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
+            <li>
+              <a href="topic.html" class="desktop-link"><span style="font-family: 'Bayon';" >
+                អំពីយើង
+                </span></a>
+              <input type="checkbox" id="show-services">
+              <label for="show-services">Services</label>
+              <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a>
+                  <input type="checkbox" id="show-items">
+                  <label for="show-items">Drop Menu 2</label>
+                  <ul>
+                    <li><a href="#">Sub Menu 1</a></li>
+                    <li><a href="#">Sub Menu 2</a></li>
+                    <li><a href="#">Sub Menu 3</a></li>
+                
+                </li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li>
+                  <a href="#" class="desktop-link">More Items</a>
+                  <input type="checkbox" id="show-items">
+                  <label for="show-items">More Items</label>
+                  <ul>
+                    <li><a href="#">Sub Menu 1</a></li>
+                    <li><a href="#">Sub Menu 2</a></li>
+                    <li><a href="#">Sub Menu 3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
 
-          
-          
-          <li><a href="#">About Us</a></li>
+            
+            
+            <li><a href="#">About Us</a></li>
 
-        </ul>
-      </div>
-      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
-      <form action="#" class="search-box">
-        <input type="text" placeholder="Type Something to Search..." required>
-        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-      </form>
-    </nav>
-  </div>
+          </ul>
+        </div>
+        <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form action="#" class="search-box">
+          <input type="text" placeholder="Type Something to Search..." required>
+          <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+        </form>
+      </nav>
+    </div>
 
-  <div class="dummy-text">
-    <h2>Responsive Dropdown Menu Bar with Searchbox</h2>
-    <h2>using only HTML & CSS - Flexbox</h2>
-  </div>
+    <div class="dummy-text">
+      <h2><span style="font-family: 'Bayon';" >
+        សូមស្វាគមន៍មកកាន់គេហទំព័រ E-Math
+        </span></h2>
+        <h3><span style="font-family: 'Metal';" >
+          ស្វែងយល់ពីបម្រើបម្រាស់នៃគណិតវិទ្យាក្នងជីវភាពរស់នៅប្រចាំថ្ងៃ
+          </span></h3>
+
+    </div>
+
+
+
+</div>
 
 </body>
 </html>
